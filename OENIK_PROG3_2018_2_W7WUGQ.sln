@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp.Data", "MovieApp.Data\MovieApp.Data.csproj", "{39BB14E2-120B-4275-8AE6-CBADCDB52BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp.Repository", "MovieApp.Repository\MovieApp.Repository.csproj", "{EA643139-5616-41B5-B89C-09133A82ECD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp.Logic", "MovieApp.Logic\MovieApp.Logic.csproj", "{4508B2B0-A98E-4711-A1E8-5D9039472E84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp.Logic.Tests", "MovieApp.Logic.Tests\MovieApp.Logic.Tests.csproj", "{45D66F8E-A45B-4451-8902-908BD9651A7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp.Program", "MovieApp.Program\MovieApp.Program.csproj", "{6622B4D0-9C23-4B04-8485-46A00B01B0D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8A98C3AB-111C-4B5A-AB49-95D6D777CC84}"
+	ProjectSection(SolutionItems) = preProject
+		oenik.ruleset = oenik.ruleset
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39BB14E2-120B-4275-8AE6-CBADCDB52BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39BB14E2-120B-4275-8AE6-CBADCDB52BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39BB14E2-120B-4275-8AE6-CBADCDB52BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39BB14E2-120B-4275-8AE6-CBADCDB52BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA643139-5616-41B5-B89C-09133A82ECD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA643139-5616-41B5-B89C-09133A82ECD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA643139-5616-41B5-B89C-09133A82ECD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA643139-5616-41B5-B89C-09133A82ECD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4508B2B0-A98E-4711-A1E8-5D9039472E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4508B2B0-A98E-4711-A1E8-5D9039472E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4508B2B0-A98E-4711-A1E8-5D9039472E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4508B2B0-A98E-4711-A1E8-5D9039472E84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D66F8E-A45B-4451-8902-908BD9651A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D66F8E-A45B-4451-8902-908BD9651A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D66F8E-A45B-4451-8902-908BD9651A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D66F8E-A45B-4451-8902-908BD9651A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6622B4D0-9C23-4B04-8485-46A00B01B0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6622B4D0-9C23-4B04-8485-46A00B01B0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6622B4D0-9C23-4B04-8485-46A00B01B0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6622B4D0-9C23-4B04-8485-46A00B01B0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
